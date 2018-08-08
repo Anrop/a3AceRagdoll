@@ -1,10 +1,11 @@
-class CfgMovesBasic;
-class CfgMovesMaleSdr:CfgMovesBasic 
+class CfgMovesBasic {
+  class Default;
+};
+class CfgMovesMaleSdr: CfgMovesBasic
 {
   class States
   {
-    class Unconscious;
-    class kka3_unc_1: Unconscious
+    class kka3_unc_1: Default
     {
       file = "diwako_ragdoll\anims\kka3_unc_1.rtm";
       collisionShape = "A3\anims_f\Data\Geom\Sdr\geom_empty.p3d";

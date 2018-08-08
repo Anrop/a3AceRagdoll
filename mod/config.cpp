@@ -7,9 +7,7 @@ class CfgPatches {
     weapons[] = {};
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      "ace_medical"
-      ,"cba_common"
-      ,"ace_common"
+      "cba_common"
     };
     author[] = {"diwako"};
     authorUrl = "https://github.com/diwako/a3AceRagdoll";
